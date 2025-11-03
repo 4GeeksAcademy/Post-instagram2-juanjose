@@ -53,7 +53,6 @@ body {
 
 .more-options {
     font-size: 24px;
-    cursor: pointer;
     color: #262626;
     font-weight: bold;
 }
@@ -63,26 +62,12 @@ body {
 }
 .post-actions {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     padding: 12px 16px;
     gap: 16px;
 }
 
-.action-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    font-size: 28px;
-}
 
-.action-btn:hover {
-    opacity: 0.6;
-}
-
-.bookmark {
-    margin-left: auto;
-}
 .likes {
     padding: 0 16px;
     font-size: 14px;
